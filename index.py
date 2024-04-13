@@ -22,7 +22,6 @@ mydb = mysql.connector.connect(
   password="juliana",
   database = "biblioteca"
 )
-
 mycursor = mydb.cursor()
 
 
